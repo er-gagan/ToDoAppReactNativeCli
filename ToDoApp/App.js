@@ -14,7 +14,7 @@ import {View} from 'react-native';
 const App = () => {
   
   return (
-    <View>
+    <View style={{flex:1}}>
       <Home/>
     </View>
   );
