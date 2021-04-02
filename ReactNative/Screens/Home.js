@@ -132,7 +132,7 @@ const Home = () => {
                 </Button>
             </View>
 
-            <View style={{ flex: 0.5 }}>
+            <View style={{ flex: 0.6 }}>
                 <Modal visible={showModal} transparent={true}>
                     <View style={{ backgroundColor: "#000000aa", flex: 1 }}>
                         <View style={{ margin: 50, backgroundColor: "#ffffff", borderRadius: 8, padding: 25, flex: 1 }}>
@@ -184,11 +184,7 @@ const Home = () => {
                 />
 
             </View>
-            <View style={{ flex: 0.1 }}>
-                <Text style={{ fontSize: 17, textAlign: "center", color: "#979595" }}>Copyright{'\u00A9'}2021</Text>
-                <Text style={{ fontSize: 15, textAlign: "center", color: "#5e5a5a" }}>Gagan Aggarwal (Software Engineer)</Text>
-                <Text style={{ fontSize: 15, textAlign: "center", color: "#5e5a5a" }}>Email: gaggarwal124@gmail.com</Text>
-            </View>
+           
         </View>
     )
 }
